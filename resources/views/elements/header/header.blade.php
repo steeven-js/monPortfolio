@@ -4,11 +4,12 @@
             <!-- Logo -->
             <div class="flex items-center shrink-0">
                 <a href="index.html" aria-label="Home" class="flex items-center flex-shrink-0">
-                    <img src="storage/images/logo.png" alt=""
+                    <img src="https://flowbite.com/docs/images/logo.svg" alt="logo"
                         class="w-auto h-8 sm:h-9 md:hidden lg:block lg:h-10" />
                     <img src="storage/images/logo-icon.png" alt=""
                         class="hidden w-auto h-8 md:block lg:hidden" />
                 </a>
+                <p class="font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white ml-3">Steeven</p>
             </div>
 
             <!-- Desktop navigation links -->
@@ -44,7 +45,7 @@
             <div class="flex items-center">
                 <!-- Call to action -->
                 <a class="text-slate-900 shadow-sm shadow-sky-100/50 ring-1 ring-slate-100 hover:bg-slate-200/60 hover:shadow-sky-100/50 bg-slate-100/80 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none"
-                    href="#0">
+                    href="{{ route('contact') }}">
                     Book a call
                 </a>
 

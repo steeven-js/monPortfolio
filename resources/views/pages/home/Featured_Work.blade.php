@@ -1,12 +1,12 @@
-<section class="pt-8 pb-16 bg-white overflow-x-clip sm:pt-12 sm:pb-24 md:pt-16">
+<section class="pt-8 pb-16 bg-white overflow-x-clip sm:pt-12 sm:pb-24 md:pt-16 dark:bg-gray-800">
     <!-- Container -->
     <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
         <!-- Section header -->
         <div class="text-center">
-            <h2 class="text-4xl font-semibold font-display text-slate-900 sm:text-5xl">
+            <h2 class="text-4xl font-semibold font-display text-slate-900 sm:text-5xl dark:text-white">
                 Check out my latest work
             </h2>
-            <p class="max-w-md mx-auto mt-4 text-lg leading-8 text-slate-700 sm:mt-5">
+            <p class="max-w-md mx-auto mt-4 text-lg leading-8 text-slate-700 sm:mt-5 dark:text-white">
                 My goal is to create effective digital experiences that make
                 people’s lives easier and better. I hope my work is a reflection of
                 this.
@@ -17,7 +17,7 @@
         <div class="relative max-w-xl mx-auto mt-16 space-y-16 lg:mx-0 lg:max-w-none">
             <!-- 1st Case Study -->
             <div
-                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16">
+                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
                 <svg width="1280" height="492" viewBox="0 0 1280 492" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="absolute inset-x-0 w-full h-full rotate-90 top-6 lg:rotate-0">
@@ -49,9 +49,9 @@
                 <div
                     class="relative order-2 px-1 sm:px-4 lg:order-1 lg:col-span-6 lg:pt-16 lg:pb-16 lg:pl-12 xl:col-span-5 xl:pt-8 xl:pb-24 xl:pl-16">
                     <div
-                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md">
+                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md dark:text-sky-600">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="currentColor" class="w-4 h-4 text-sky-900/75">
+                            fill="currentColor" class="w-4 h-4 text-sky-900/75 dark:text-sky-600">
                             <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"
                                 transform="translate(0.5 0.5)" fill="none" stroke="currentColor">
                                 <path d="M10,11.01l8.378-8.389a2.122,2.122,0,0,1,3,0h0a2.122,2.122,0,0,1,0,3L13,14"
@@ -70,7 +70,7 @@
                         Horizons in Perspective
                     </h3>
 
-                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8">
+                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8 dark:text-white">
                         I helped Horizons in Perspective develop a new branding and
                         website experience, as well as an engaging product design for
                         their bi-annual journal publication.
@@ -98,7 +98,7 @@
 
             <!-- 2nd Case Study -->
             <div
-                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16">
+                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
                 <svg width="1280" height="492" viewBox="0 0 1280 492" fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -131,9 +131,9 @@
                 <div
                     class="relative order-2 px-1 sm:px-4 lg:order-1 lg:col-span-6 lg:pt-16 lg:pb-16 lg:pl-12 xl:col-span-5 xl:pt-8 xl:pb-24 xl:pl-16">
                     <div
-                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md">
+                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md dark:text-sky-600">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="currentColor" class="w-4 h-4 text-sky-900/75">
+                            fill="currentColor" class="w-4 h-4 text-sky-900/75 dark:text-sky-600">
                             <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"
                                 transform="translate(0.5 0.5)" fill="none" stroke="currentColor">
                                 <rect x="2" y="2" width="20" height="20"></rect>
@@ -154,7 +154,7 @@
                         Wavvy
                     </h3>
 
-                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8">
+                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8 dark:text-white">
                         Revamping Wavvy's online presence with a website redesign,
                         branding enhancement, and strategic consulting, driving user
                         engagement and growth.
@@ -182,7 +182,7 @@
 
             <!-- 3rd Case Study -->
             <div
-                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16">
+                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
                 <img src="storage/images/case-study-bg.svg" alt=""
                     class="absolute inset-x-0 w-full h-full rotate-90 top-6 lg:rotate-0" />
@@ -191,9 +191,9 @@
                 <div
                     class="relative order-2 px-1 sm:px-4 lg:order-1 lg:col-span-6 lg:pt-16 lg:pb-16 lg:pl-12 xl:col-span-5 xl:pt-8 xl:pb-24 xl:pl-16">
                     <div
-                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md">
+                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md dark:text-sky-600">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="currentColor" class="w-4 h-4 text-sky-900/75">
+                            fill="currentColor" class="w-4 h-4 text-sky-900/75 dark:text-sky-600">
                             <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"
                                 transform="translate(0.5 0.5)" fill="none" stroke="currentColor">
                                 <line x1="14" y1="19" x2="17" y2="19"
@@ -215,7 +215,7 @@
                         Banter
                     </h3>
 
-                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8">
+                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8 dark:text-white">
                         Transforming Banter's digital presence through website redesign,
                         branding enhancement, content strategy consulting, and AI
                         integration for content creation.
@@ -243,7 +243,7 @@
 
             <!-- 4th Case Study -->
             <div
-                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16">
+                class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
                 <img src="storage/images/case-study-bg.svg" alt=""
                     class="absolute inset-x-0 w-full h-full rotate-90 top-6 lg:rotate-0" />
@@ -252,9 +252,9 @@
                 <div
                     class="relative order-2 px-1 sm:px-4 lg:order-1 lg:col-span-6 lg:pt-16 lg:pb-16 lg:pl-12 xl:col-span-5 xl:pt-8 xl:pb-24 xl:pl-16">
                     <div
-                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md">
+                        class="inline-flex items-center gap-2.5 text-sm font-medium leading-[16px] text-sky-900/80 sm:text-md dark:text-sky-600">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="currentColor" class="w-4 h-4 text-sky-900/75">
+                            fill="currentColor" class="w-4 h-4 text-sky-900/75 dark:text-sky-600">
                             <g stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"
                                 transform="translate(0.5 0.5)" fill="none" stroke="currentColor">
                                 <polyline points="8.333,14 1,14 1,1 23,1 23,14 20,14 "></polyline>
@@ -271,7 +271,7 @@
                         Bright School
                     </h3>
 
-                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8">
+                    <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8 dark:text-white">
                         Revitalizing Bright School's online presence with a redesigned
                         website, branding, and Google Ads campaign, resulting in a 200%
                         enrollment increase.
