@@ -213,7 +213,7 @@
                             <div class="pt-8 mt-10 border-t border-slate-200">
                                 <button type="submit"
                                     class="inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none bg-slate-900 text-white hover:bg-sky-800 w-full text-base sm:text-lg">
-                                    Get started
+                                    Envoyer
                                 </button>
                             </div>
                         </form>

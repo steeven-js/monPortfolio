@@ -79,7 +79,7 @@
                             </p>
                             <a href="https://js-tech.fr/" target="_blank"
                                 class="inline-flex items-center justify-center gap-2 py-3 mt-12 font-medium transition duration-300 bg-white rounded-full shadow-sm group px-9 text-md text-sky-900 shadow-sky-100/50 ring-1 ring-slate-100/90 hover:bg-white/60 hover:text-sky-700 hover:shadow-md hover:shadow-sky-100">
-                                View Case study
+                                Voir le résultat
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                     class="w-5 h-5 duration-300 ease-in-out text-sky-800 group-hover:text-sky-700">
                                     <path fill-rule="evenodd"
