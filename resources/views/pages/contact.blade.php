@@ -153,7 +153,7 @@
                                     </div>
                                 </div>
                                 <fieldset>
-                                    <legend class="block font-medium leading-6 text-md text-slate-900 dark:text-sky-700 dark:text-sky-700">
+                                    <legend class="block font-medium leading-6 text-md text-slate-900 dark:text-sky-700">
                                         Prestations attendues
                                     </legend>
                                     <div class="mt-4 space-y-3">
