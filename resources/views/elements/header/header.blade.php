@@ -3,14 +3,14 @@
         <nav class="relative z-50 flex items-center justify-between w-full">
             <!-- Logo -->
             <div class="flex items-center shrink-0">
-                <a href="index.html" aria-label="Home" class="flex items-center flex-shrink-0">
+                <a href="{{ route('home') }}" aria-label="Home" class="flex items-center flex-shrink-0">
                     <img src="https://flowbite.com/docs/images/logo.svg" alt="logo"
                         class="w-auto h-8 sm:h-9 md:hidden lg:block lg:h-10" />
                     <img src="storage/images/logo-icon.png" alt=""
                         class="hidden w-auto h-8 md:block lg:hidden" />
+                        <p class="font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white ml-3">
+                            Steeven</p>
                 </a>
-                <p class="font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white ml-3">
-                    Steeven</p>
             </div>
 
             <!-- Desktop navigation links -->

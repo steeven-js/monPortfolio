@@ -9,13 +9,14 @@
                 <div
                     class="relative bg-slate-50 py-16 px-5 sm:py-24 sm:px-6 lg:col-span-6 lg:rounded-br-[64px] lg:px-8 lg:pt-32 2xl:pl-0 dark:bg-gray-800">
                     <!-- Background to cover left portion of large screens -->
-                    <div class="absolute inset-y-0 left-0 hidden w-full -translate-x-full bg-slate-50 lg:block dark:bg-gray-800"></div>
+                    <div
+                        class="absolute inset-y-0 left-0 hidden w-full -translate-x-full bg-slate-50 lg:block dark:bg-gray-800">
+                    </div>
 
                     <div class="relative max-w-2xl mx-auto lg:mx-0 lg:max-w-none ">
                         <h2
                             class="font-display text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl sm:leading-tight lg:text-[40px] lg:leading-tight xl:text-5xl xl:leading-tight dark:text-sky-700">
-                            Comment puis-je t'aider? Prenons contact
-                            <span class="ml-4 sm:ml-6">👋</span>
+                            Comment puis-je vous aidez? Prenons contact <span class="ml-4 sm:ml-6">👋</span>
                         </h2>
 
                         <div class="mt-12 aspect-w-3 aspect-h-2 sm:mt-16">
@@ -96,14 +97,16 @@
                             Remplissez notre formulaire ci-dessous pour commencer
                         </h3>
                         <p class="mt-4 text-lg text-slate-600 dark:text-white">
-                            Vous avez des questions, des commentaires ou des projets passionnants à discuter ? Nous sommes là pour vous ! Partagez-nous les détails. Nous sommes impatients de vous aider à concrétiser vos idées en ligne.
-                        </p>
+                            Vous avez des questions, des commentaires ou des projets passionnants à discuter ? Je suis
+                            présent pour vous ! Partagez-moi les détails. Je suis impatient de vous aider à concrétiser vos
+                            idées en ligne. </p>
 
                         <!-- Contact form -->
                         <form action="#" method="POST" class="mt-10">
                             <div class="space-y-7">
                                 <div>
-                                    <label for="name" class="block font-medium leading-6 text-md text-slate-900 dark:text-sky-700">
+                                    <label for="name"
+                                        class="block font-medium leading-6 text-md text-slate-900 dark:text-sky-700">
                                         Nom
                                     </label>
                                     <div class="mt-2">
@@ -113,7 +116,8 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <label for="email" class="block font-medium leading-6 text-md text-slate-900 dark:text-sky-700">
+                                    <label for="email"
+                                        class="block font-medium leading-6 text-md text-slate-900 dark:text-sky-700">
                                         Email
                                     </label>
                                     <div class="mt-2">
