@@ -3,7 +3,7 @@
     <!-- About Hero start-->
     <section class="relative bg-slate-50/50 dark:bg-gray-800">
         <!-- Background gradient -->
-        <img src="{{ Storage::url('about-hero-bg.svg') }}" alt=""
+        <img src="{{ Storage::url('images/about-hero-bg.svg') }}" alt=""
             class="absolute inset-0 object-cover object-left w-full h-full lg:w-2/3" />
 
         <!-- Content -->
@@ -37,7 +37,7 @@
         <!-- Image -->
         <div
             class="bg-picton-blue-25 relative h-96 w-full md:h-[6300px] lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/3">
-            <img src="{{ Storage::url('about-hero.png') }}" alt=""
+            <img src="{{ Storage::url('images/about-hero.png') }}" alt=""
                 class="object-cover object-left w-full h-full rounded-2xl" />
             <svg width="229" height="40" viewBox="0 0 229 40" fill="none" xmlns="http://www.w3.org/2000/svg"
                 class="absolute left-0 w-auto h-8 -translate-x-1/2 bottom-16 mt-14 sm:mt-20 sm:h-10">
@@ -123,7 +123,7 @@
                         <div>
                             <div
                                 class="flex items-center justify-center mb-6 rounded-lg h-11 w-11 bg-gradient-to-br from-sky-50 via-slate-50 to-sky-50 ring-1 ring-slate-900/5">
-                                <img src="{{ Storage::url('logos/icons/adobe.png') }}" alt="Adobe" />
+                                <img src="{{ Storage::url('images/logos/icons/adobe.png') }}" alt="Adobe" />
                             </div>
                             <p class="text-sm font-medium text-sky-700">
                                 Mar 2022 - Jan 2022
@@ -143,7 +143,7 @@
                         <div>
                             <div
                                 class="flex items-center justify-center mb-6 rounded-lg h-11 w-11 bg-gradient-to-br from-sky-50 via-slate-50 to-sky-50 ring-1 ring-slate-900/5">
-                                <img src="{{ Storage::url('logos/icons/dropbox.png') }}" alt="Dropbox" />
+                                <img src="{{ Storage::url('images/logos/icons/dropbox.png') }}" alt="Dropbox" />
                             </div>
                             <p class="text-sm font-medium text-sky-700">
                                 Oct 2022 - Dec 2023
@@ -163,7 +163,7 @@
                         <div>
                             <div
                                 class="flex items-center justify-center mb-6 rounded-lg h-11 w-11 bg-gradient-to-br from-sky-50 via-slate-50 to-sky-50 ring-1 ring-slate-900/5">
-                                <img src="{{ Storage::url('logos/icons/gumroad.png') }}" alt="Gumroad" />
+                                <img src="{{ Storage::url('images/logos/icons/gumroad.png') }}" alt="Gumroad" />
                             </div>
                             <p class="text-sm font-medium text-sky-700">
                                 Mar 2023 - Actuellement
@@ -248,7 +248,7 @@
                                 <div class="flex gap-4 sm:gap-6">
                                     <div
                                         class="flex items-center justify-center bg-white rounded-lg shadow-sm h-9 w-9 shrink-0 shadow-sky-100/75 ring-1 ring-slate-100/95 sm:h-11 sm:w-11">
-                                        <img src="{{ Storage::url('logos/icons/laravel.png') }}" alt="Laravel"
+                                        <img src="{{ Storage::url('images/logos/icons/laravel.png') }}" alt="Laravel"
                                             class="h-auto w-5 shrink-0 sm:w-[22px]" />
                                     </div>
                                     <div class="overflow-hidden">
@@ -267,7 +267,7 @@
                                 <div class="flex gap-4 sm:gap-6">
                                     <div
                                         class="flex items-center justify-center bg-white rounded-lg shadow-sm h-9 w-9 shrink-0 shadow-sky-100/75 ring-1 ring-slate-100/95 sm:h-11 sm:w-11">
-                                        <img src="{{ Storage::url('logos/icons/javascript.png') }}" alt="Javascript"
+                                        <img src="{{ Storage::url('images/logos/icons/javascript.png') }}" alt="Javascript"
                                             class="h-auto w-5 shrink-0 sm:w-[22px]" />
                                     </div>
                                     <div class="overflow-hidden">
@@ -286,7 +286,7 @@
                                 <div class="flex gap-4 sm:gap-6">
                                     <div
                                         class="flex items-center justify-center bg-white rounded-lg shadow-sm h-9 w-9 shrink-0 shadow-sky-100/75 ring-1 ring-slate-100/95 sm:h-11 sm:w-11">
-                                        <img src="{{ Storage::url('logos/icons/symfony.png') }}" alt="Symfony"
+                                        <img src="{{ Storage::url('images/logos/icons/symfony.png') }}" alt="Symfony"
                                             class="h-auto w-5 shrink-0 sm:w-[22px]" />
                                     </div>
                                     <div class="overflow-hidden">
@@ -305,7 +305,7 @@
                                 <div class="flex gap-4 sm:gap-6">
                                     <div
                                         class="flex items-center justify-center bg-white rounded-lg shadow-sm h-9 w-9 shrink-0 shadow-sky-100/75 ring-1 ring-slate-100/95 sm:h-11 sm:w-11">
-                                        <img src="{{ Storage::url('logos/icons/vuejs.png') }}" alt="Vuejs"
+                                        <img src="{{ Storage::url('images/logos/icons/vuejs.png') }}" alt="Vuejs"
                                             class="h-auto w-5 shrink-0 sm:w-[22px]" />
                                     </div>
                                     <div class="overflow-hidden">
@@ -324,7 +324,7 @@
                                 <div class="flex gap-4 sm:gap-6">
                                     <div
                                         class="flex items-center justify-center bg-white rounded-lg shadow-sm h-9 w-9 shrink-0 shadow-sky-100/75 ring-1 ring-slate-100/95 sm:h-11 sm:w-11">
-                                        <img src="{{ Storage::url('logos/icons/tailwindcss.png') }}" alt="Tailwind CSS"
+                                        <img src="{{ Storage::url('images/logos/icons/tailwindcss.png') }}" alt="Tailwind CSS"
                                             class="h-auto w-5 shrink-0 sm:w-[22px]" />
                                     </div>
                                     <div class="overflow-hidden">
@@ -343,7 +343,7 @@
                                 <div class="flex gap-4 sm:gap-6">
                                     <div
                                         class="flex items-center justify-center bg-white rounded-lg shadow-sm h-9 w-9 shrink-0 shadow-sky-100/75 ring-1 ring-slate-100/95 sm:h-11 sm:w-11">
-                                        <img src="{{ Storage::url('logos/icons/reactjs.png') }}" alt="Reactjs"
+                                        <img src="{{ Storage::url('images/logos/icons/reactjs.png') }}" alt="Reactjs"
                                             class="h-auto w-5 shrink-0 sm:w-[22px]" />
                                     </div>
                                     <div class="overflow-hidden">
@@ -364,7 +364,7 @@
                 <div class="relative w-full max-w-xl pb-24 mx-auto lg:order-1 lg:mx-0 lg:max-w-none">
                     <div class="relative w-full max-w-lg mx-auto lg:mr-auto lg:ml-0">
                         <div class="aspect-w-5 aspect-h-7">
-                            <img src="{{ Storage::url('portrait-02.png') }}" alt=""
+                            <img src="{{ Storage::url('images/portrait-02.png') }}" alt=""
                                 class="object-cover object-left w-full h-full rounded-2xl" />
                         </div>
 
@@ -379,7 +379,7 @@
                             <!-- Client avatars -->
                             <div class="mt-6 flex -space-x-1.5 overflow-hidden">
                                 <img class="inline-block w-8 h-8 rounded-full ring-2 ring-sky-700/95"
-                                    src="{{ Storage::url('avatars/avatar-1.png') }}" alt="" />
+                                    src="{{ Storage::url('images/avatars/avatar-1.png') }}" alt="" />
                             </div>
                         </div>
                     </div>

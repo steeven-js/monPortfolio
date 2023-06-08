@@ -4,7 +4,7 @@
     <section class="relative overflow-hidden bg-white lg:px-8 dark:bg-gray-800">
         <div
             class="relative max-w-screen-xl px-5 py-16 mx-auto sm:px-6 lg:px-8 bg-slate-50 sm:py-24 lg:rounded-b-3xl lg:py-32">
-            <img src="{{ Storage::url('blog-hero-bg.svg') }}" alt="" class="absolute inset-0 w-full h-full" />
+            <img src="{{ Storage::url('images/blog-hero-bg.svg') }}" alt="" class="absolute inset-0 w-full h-full" />
             <div class="relative flex flex-col items-center justify-center">
                 <h1 class="text-5xl font-semibold text-center font-display text-slate-900 sm:text-6xl dark:text-sky-700">
                     Bienvenue sur 
@@ -119,7 +119,7 @@
                     <div class="w-full px-4 pt-4">
                         <a href="{{ route('blog.article') }}"
                             class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="{{ Storage::url('articles/article-01.jpg') }}" alt=""
+                            <img src="{{ Storage::url('images/articles/article-01.jpg') }}" alt=""
                                 class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -183,7 +183,7 @@
                     <div class="w-full px-4 pt-4">
                         <a href="{{ route('blog.article') }}"
                             class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="{{ Storage::url('articles/article-02.jpg') }}" alt=""
+                            <img src="{{ Storage::url('images/articles/article-02.jpg') }}" alt=""
                                 class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -251,7 +251,7 @@
                     <div class="w-full px-4 pt-4">
                         <a href="{{ route('blog.article') }}"
                             class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="{{ Storage::url('articles/article-03.jpg') }}" alt=""
+                            <img src="{{ Storage::url('images/articles/article-03.jpg') }}" alt=""
                                 class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
