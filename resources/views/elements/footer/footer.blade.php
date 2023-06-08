@@ -7,13 +7,13 @@
             <div class="lg:col-span-7">
                 <h3
                     class="text-4xl font-semibold text-center text-white font-display sm:text-5xl lg:max-w-xl lg:text-left">
-                    Lets make something great together
+                    Faisons quelque chose de grand ensemble
                 </h3>
                 <div class="hidden lg:block">
                     <!-- Call to action button for large screens -->
-                    <a href="#"
+                    <a href="{{ route('contact') }}" target="_blank"
                         class="mt-12 bg-white hover:bg-sky-50 text-slate-700 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none">
-                        Book a call
+                        Me contactez
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                             class="w-5 h-5">
                             <path fill-rule="evenodd"
@@ -30,9 +30,9 @@
                 </p>
 
                 <!-- Call to action button for small screens -->
-                <a href="#"
+                <a href="{{ route('contact') }}" target="_blank"
                     class="mt-10 inline-flex items-center justify-center gap-x-2.5 rounded-full bg-white py-3 px-7 text-md font-semibold leading-none text-slate-700 duration-200 ease-in-out hover:bg-sky-50 lg:hidden">
-                    Book a call
+                    Me contactez
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                         class="w-5 h-5">
                         <path fill-rule="evenodd"
@@ -45,7 +45,7 @@
                 <div
                     class="mt-16 grid w-full max-w-sm grid-cols-2 gap-3.5 sm:max-w-none sm:grid-cols-3 lg:mt-8 lg:gap-2.5 xl:gap-3.5">
                     <!-- Email -->
-                    <a href="#"
+                    <a href="mailto:jacques.steeven@gmail.com"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke-width="2" stroke="currentColor"
@@ -57,7 +57,7 @@
                     </a>
 
                     <!-- Dribbble -->
-                    <a href="#"
+                    <a href="https://dribbble.com/steeven_jacques/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="currentColor"
@@ -72,7 +72,7 @@
                     </a>
 
                     <!-- Instagram -->
-                    <a href="#"
+                    <a href="https://www.instagram.com/steevenjacques8/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="currentColor"
@@ -92,7 +92,7 @@
                     </a>
 
                     <!-- Twitter -->
-                    <a href="#"
+                    <a href="https://twitter.com/steeven_jacques/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="currentColor"
@@ -108,7 +108,7 @@
                     </a>
 
                     <!-- LinkedIn -->
-                    <a href="#"
+                    <a href="https://www.linkedin.com/in/steeven-jacques-1337a9238/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
                             viewBox="0 0 18 16" fill="currentColor"
@@ -121,7 +121,7 @@
                     </a>
 
                     <!-- Github -->
-                    <a href="#"
+                    <a href="https://github.com/steeven-js/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
                             viewBox="0 0 18 16" fill="currentColor"
@@ -142,23 +142,23 @@
         <div class="flex flex-col items-center justify-between md:flex-row">
             <!-- Site links -->
             <div class="flex items-center gap-6">
-                <a href="index.html"
+                <a href="{{ route('home') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     Home
                 </a>
-                <a href="about.html"
+                <a href="a{{ route('about') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     About
                 </a>
-                <a href="work.html"
+                <a href="{{ route('portfolio') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
-                    Work
+                    Portfolio
                 </a>
-                <a href="blog.html"
+                <a href="{{ route('blog') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     Blog
                 </a>
-                <a href="contact.html"
+                <a href="{{ route('contact') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     Contact
                 </a>
@@ -166,7 +166,7 @@
 
             <!-- Copyright text -->
             <p class="mt-8 text-base text-slate-400/90 md:mt-0">
-                © 2023 Tailwind Awesome. All rights reserved.
+                © 2023 Jsprod. All rights reserved.
             </p>
         </div>
     </div>

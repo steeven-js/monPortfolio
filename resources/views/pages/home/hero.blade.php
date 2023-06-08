@@ -41,13 +41,11 @@
             </h1>
             <p class="mt-6 text-lg leading-8 text-center text-slate-700 lg:text-left dark:text-white">
                 Je suis un développeur passionné, un entrepreneur et un passionné de technologie générale vivant en
-                Martinique. J'ai travaillé avec des centaines de startups pour les aider à développer leurs idées en
-                entreprises rentables.
+                Martinique. J'ai développer des site e-commerce avec Laravel 10 et Symfony 6.
             </p>
             <div class="flex flex-wrap items-center justify-center mt-10 gap-y-6 gap-x-10 lg:justify-start">
                 <a href="{{ route('contact') }}"
-                    class="h-11 bg-slate-900 text-white hover:bg-sky-800 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none">Book
-                    a call with me</a>
+                    class="h-11 bg-slate-900 text-white hover:bg-sky-800 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none">Me contactez</a>
 
                 <!-- Social links -->
                 <div class="flex gap-3 sm:gap-4">
@@ -93,7 +91,7 @@
         <!-- Hero graphics -->
         <div class="w-full max-w-lg mx-auto lg:mr-0">
             <div class="relative aspect-h-5 aspect-w-4 rounded-2xl bg-slate-50">
-                <img class="object-cover object-center w-full h-full rounded-2xl" src="storage/images/hero-portrait.jpg"
+                <img class="object-cover object-center w-full h-full rounded-2xl" src="{{ Storage::url('/images/hero-portrait.jpg') }}"
                     alt="" sizes="(min-width: 552px) 32rem, calc(100vw - 40px)" />
                 <div>
                     <!-- Floating handwritten text with arrow -->
@@ -119,7 +117,7 @@
                         <!-- Experience with Tech 1 -->
                         <div
                             class="absolute right-12 -top-6 inline-flex h-12 w-max items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:-left-28 md:top-14 lg:left-44 lg:-top-6 lg:px-10 2xl:-left-48 2xl:top-14 dark:bg-slate-500 dark:text-white">
-                            <img src="storage/images/logos/icons/figma.png" alt="" class="w-4 h-auto" />3
+                            <img src="{{ Storage::url('/images/logos/icons/figma.png') }}" alt="" class="w-4 h-auto" />3
                             years of
                             experience
                         </div>
@@ -127,7 +125,7 @@
                         <!-- Experience with Tech 2 -->
                         <div
                             class="absolute top-full left-12 inline-flex h-12 w-max -translate-y-6 items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:left-0 md:-translate-x-20 md:-translate-y-24 lg:-left-3 lg:-translate-y-24 lg:px-10 xl:-left-6 xl:-translate-y-32 xl:-translate-x-28 dark:bg-slate-500 dark:text-white">
-                            <img src="storage/images/logos/icons/sketch.png" alt="" class="w-auto h-6" />5
+                            <img src="{{ Storage::url('/images/logos/icons/sketch.png') }}" alt="" class="w-auto h-6" />5
                             years
                             of experience
                         </div>
@@ -135,7 +133,7 @@
                         <!-- Experience with Tech 3 -->
                         <div
                             class="absolute top-[350px] hidden h-12 w-max items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:left-full md:inline-flex md:-translate-x-32 lg:left-48 lg:hidden lg:px-10 2xl:left-full 2xl:inline-flex 2xl:-translate-x-28 dark:bg-slate-500 dark:text-white">
-                            <img src="storage/images/logos/icons/tailwindcss.png" alt=""
+                            <img src="{{ Storage::url('/images/logos/icons/tailwindcss.png') }}" alt=""
                                 class="h-auto w-7" />
                             3 years of experience
                         </div>
