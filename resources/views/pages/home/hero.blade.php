@@ -125,7 +125,7 @@
                         <!-- Experience with Tech 2 -->
                         <div
                             class="absolute top-full left-12 inline-flex h-12 w-max -translate-y-6 items-center justify-center gap-3.5 rounded-2xl bg-white/90 px-8 text-sm font-semibold text-slate-700 shadow-lg shadow-sky-100/50 ring-1 ring-slate-900/5 backdrop-blur-md md:left-0 md:-translate-x-20 md:-translate-y-24 lg:-left-3 lg:-translate-y-24 lg:px-10 xl:-left-6 xl:-translate-y-32 xl:-translate-x-28 dark:bg-slate-500 dark:text-white">
-                            <img src="{{ Storage::url('/images/logos/icons/sketch.png') }}" alt="" class="w-auto h-6" />5
+                            <img src="{{ Storage::url('/images/logos/icons/laravel.png') }}" alt="" class="w-auto h-6" />2
                             years
                             of experience
                         </div>

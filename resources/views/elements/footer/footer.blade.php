@@ -2,8 +2,7 @@
     <!-- Container -->
     <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
         <!-- Call to action -->
-        <div
-            class="grid items-center max-w-xl gap-5 mx-auto lg:mx-0 lg:max-w-none lg:grid-cols-12 lg:gap-12 xl:gap-20">
+        <div class="grid items-center max-w-xl gap-5 mx-auto lg:mx-0 lg:max-w-none lg:grid-cols-12 lg:gap-12 xl:gap-20">
             <div class="lg:col-span-7">
                 <h3
                     class="text-4xl font-semibold text-center text-white font-display sm:text-5xl lg:max-w-xl lg:text-left">
@@ -14,8 +13,7 @@
                     <a href="{{ route('contact') }}" target="_blank"
                         class="mt-12 bg-white hover:bg-sky-50 text-slate-700 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none">
                         Me contactez
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                            class="w-5 h-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                             <path fill-rule="evenodd"
                                 d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                                 clip-rule="evenodd" />
@@ -25,15 +23,15 @@
             </div>
             <div class="flex flex-col items-center lg:col-span-5 lg:items-start">
                 <p class="text-lg text-center text-slate-50 lg:max-w-sm lg:text-left">
-                    N'hésitez pas à me contacter pour discuter de vos projets web ou pour en savoir plus sur mes compétences et mon expérience.
+                    N'hésitez pas à me contacter pour discuter de vos projets web ou pour en savoir plus sur mes
+                    compétences et mon expérience.
                 </p>
 
                 <!-- Call to action button for small screens -->
                 <a href="{{ route('contact') }}" target="_blank"
                     class="mt-10 inline-flex items-center justify-center gap-x-2.5 rounded-full bg-white py-3 px-7 text-md font-semibold leading-none text-slate-700 duration-200 ease-in-out hover:bg-sky-50 lg:hidden">
                     Me contactez
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                        class="w-5 h-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                         <path fill-rule="evenodd"
                             d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                             clip-rule="evenodd" />
@@ -46,8 +44,8 @@
                     <!-- Email -->
                     <a href="mailto:jacques.steeven@gmail.com"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="2" stroke="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor"
                             class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -58,8 +56,8 @@
                     <!-- Dribbble -->
                     <a href="https://dribbble.com/steeven_jacques/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor"
                             class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100">
                             <g>
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -73,8 +71,8 @@
                     <!-- Instagram -->
                     <a href="https://www.instagram.com/steevenjacques8/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor"
                             class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100">
                             <g>
                                 <path
@@ -93,8 +91,8 @@
                     <!-- Twitter -->
                     <a href="https://twitter.com/steeven_jacques/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor"
                             class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100">
                             <g>
                                 <path
@@ -109,8 +107,8 @@
                     <!-- LinkedIn -->
                     <a href="https://www.linkedin.com/in/steeven-jacques-1337a9238/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
-                            viewBox="0 0 18 16" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16"
+                            fill="currentColor"
                             class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100">
                             <path
                                 d="M16.5128 0H0.717949C0.287179 0 0 0.266667 0 0.666667V15.3333C0 15.7333 0.287179 16 0.717949 16H16.5128C16.9436 16 17.2308 15.7333 17.2308 15.3333V0.666667C17.2308 0.266667 16.9436 0 16.5128 0ZM5.09744 13.6667H2.58462V6H5.16923V13.6667H5.09744ZM3.80513 4.93333C3.01538 4.93333 2.29744 4.33333 2.29744 3.53333C2.29744 2.8 2.94359 2.13333 3.80513 2.13333C4.59487 2.13333 5.31282 2.73333 5.31282 3.53333C5.31282 4.33333 4.66667 4.93333 3.80513 4.93333ZM14.7179 13.6667H12.1333V9.93333C12.1333 9.06667 12.1333 7.93333 10.841 7.93333C9.47692 7.93333 9.33333 8.86667 9.33333 9.86667V13.6667H6.74872V6H9.18974V7.06667C9.54872 6.46667 10.3385 5.86667 11.6308 5.86667C14.2154 5.86667 14.7179 7.46667 14.7179 9.53333V13.6667Z" />
@@ -122,8 +120,8 @@
                     <!-- Github -->
                     <a href="https://github.com/steeven-js/" target="_blank"
                         class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
-                            viewBox="0 0 18 16" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16"
+                            fill="currentColor"
                             class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100">
                             <path
                                 d="M16.5128 0H0.717949C0.287179 0 0 0.266667 0 0.666667V15.3333C0 15.7333 0.287179 16 0.717949 16H16.5128C16.9436 16 17.2308 15.7333 17.2308 15.3333V0.666667C17.2308 0.266667 16.9436 0 16.5128 0ZM5.09744 13.6667H2.58462V6H5.16923V13.6667H5.09744ZM3.80513 4.93333C3.01538 4.93333 2.29744 4.33333 2.29744 3.53333C2.29744 2.8 2.94359 2.13333 3.80513 2.13333C4.59487 2.13333 5.31282 2.73333 5.31282 3.53333C5.31282 4.33333 4.66667 4.93333 3.80513 4.93333ZM14.7179 13.6667H12.1333V9.93333C12.1333 9.06667 12.1333 7.93333 10.841 7.93333C9.47692 7.93333 9.33333 8.86667 9.33333 9.86667V13.6667H6.74872V6H9.18974V7.06667C9.54872 6.46667 10.3385 5.86667 11.6308 5.86667C14.2154 5.86667 14.7179 7.46667 14.7179 9.53333V13.6667Z" />
@@ -153,10 +151,10 @@
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     Portfolio
                 </a>
-                <a href="{{ route('blog') }}"
+                {{-- <a href="{{ route('blog') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     Blog
-                </a>
+                </a> --}}
                 <a href="{{ route('contact') }}"
                     class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white">
                     Contact

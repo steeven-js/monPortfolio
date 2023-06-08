@@ -9,7 +9,8 @@
                     <img src="storage/images/logo-icon.png" alt=""
                         class="hidden w-auto h-8 md:block lg:hidden" />
                 </a>
-                <p class="font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white ml-3">Steeven</p>
+                <p class="font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white ml-3">
+                    Steeven</p>
             </div>
 
             <!-- Desktop navigation links -->
@@ -26,10 +27,10 @@
                     class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[&quot;&quot;] font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white">
                     Portfolio
                 </a>
-                <a href="{{ route('blog') }}"
+                {{-- <a href="{{ route('blog') }}"
                     class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[&quot;&quot;] font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white">
                     Blog
-                </a>
+                </a> --}}
                 <a href="{{ route('contact') }}"
                     class="relative duration-200 after:absolute after:left-1/2 after:-bottom-2.5 after:h-0.5 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-slate-900 after:opacity-0 after:content-[&quot;&quot;] font-medium text-slate-700 hover:text-slate-900 hover:after:opacity-25 dark:text-white">
                     Contact
@@ -102,10 +103,10 @@
                                         class="block text-base font-semibold duration-200 text-slate-700 hover:text-slate-900">
                                         Portfolio
                                     </a>
-                                    <a href="{{ route('blog') }}"
+                                    {{-- <a href="{{ route('blog') }}"
                                         class="block text-base font-semibold duration-200 text-slate-700 hover:text-slate-900">
                                         Blog
-                                    </a>
+                                    </a> --}}
                                     <a href="{{ route('contact') }}"
                                         class="block text-base font-semibold duration-200 text-slate-700 hover:text-slate-900">
                                         Contact
