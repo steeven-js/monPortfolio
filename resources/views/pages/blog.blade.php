@@ -1,12 +1,12 @@
 @extends('layouts.default')
 @section('content')
     <!-- Blog Hero -->
-    <section class="relative overflow-hidden bg-white lg:px-8">
+    <section class="relative overflow-hidden bg-white lg:px-8 dark:bg-gray-800">
         <div
             class="relative max-w-screen-xl px-5 py-16 mx-auto sm:px-6 lg:px-8 bg-slate-50 sm:py-24 lg:rounded-b-3xl lg:py-32">
             <img src="storage/images/blog-hero-bg.svg" alt="" class="absolute inset-0 w-full h-full" />
             <div class="relative flex flex-col items-center justify-center">
-                <h1 class="text-5xl font-semibold text-center font-display text-slate-900 sm:text-6xl">
+                <h1 class="text-5xl font-semibold text-center font-display text-slate-900 sm:text-6xl dark:text-sky-700">
                     Welcome to
 
                     <!-- Highlighted text -->
@@ -61,10 +61,10 @@
     </section>
 
     <!-- Articles -->
-    <section id="articles" class="py-16 overflow-hidden bg-white sm:py-24 lg:py-28">
+    <section id="articles" class="py-16 overflow-hidden bg-white sm:py-24 lg:py-28 dark:bg-gray-800">
         <!-- Container -->
         <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-semibold text-center font-display text-slate-900 sm:text-5xl">
+            <h2 class="text-4xl font-semibold text-center font-display text-slate-900 sm:text-5xl dark:text-sky-700">
                 Latest Articles
             </h2>
 

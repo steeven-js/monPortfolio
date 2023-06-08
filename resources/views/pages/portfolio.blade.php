@@ -1,19 +1,17 @@
 @extends('layouts.default')
 @section('content')
-
-    <!-- Case Studies -->
-    <section class="py-16 overflow-hidden bg-white sm:pt-24 lg:pt-32">
+    <!-- Études de cas -->
+    <section class="py-16 overflow-hidden bg-white sm:pt-24 lg:pt-32 dark:bg-gray-800">
         <div class="max-w-screen-xl px-5 mx-auto sm:px-6 lg:px-8">
             <div class="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
                 <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-                    <h2 class="text-5xl font-semibold font-display text-slate-900 sm:text-6xl lg:leading-none">
-                        Case Studies
+                    <h2 class="text-5xl font-semibold font-display text-slate-900 sm:text-6xl lg:leading-none dark:text-sky-700">
+                        Études de cas
                     </h2>
 
-                    <p class="text-lg text-slate-700 lg:ml-auto lg:max-w-lg">
-                        Dive into my diverse range of projects, showcasing my expertise in
-                        software development, design, and dedication to delivering
-                        exceptional results.
+                    <p class="text-lg text-slate-700 lg:ml-auto lg:max-w-lg dark:text-white">
+                        Découvrez mon portfolio et explorez les projets sur lesquels j'ai travaillé pour voir comment je
+                        peux vous aider à atteindre vos objectifs en ligne.
                     </p>
                 </div>
 
@@ -25,21 +23,21 @@
                         <!-- Active tab -->
                         <a href="#0"
                             class="inline-block rounded-full px-5 py-1.5 text-md font-medium transition bg-slate-50 text-sky-800 shadow-sm shadow-sky-100/50 ring-1 ring-slate-900/5">
-                            All Projects
+                            Tous mes projets
                         </a>
                     </li>
 
                     <li>
                         <a href="#0"
                             class="bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95 inline-block rounded-full px-5 py-1.5 text-md font-medium transition">
-                            Consulting
+                            Framework
                         </a>
                     </li>
 
                     <li>
                         <a href="#0"
                             class="bg-white text-slate-700 duration-200 ease-in-out hover:bg-slate-50/95 inline-block rounded-full px-5 py-1.5 text-md font-medium transition">
-                            Branding
+                            App mobile
                         </a>
                     </li>
 
@@ -58,7 +56,7 @@
                     </li>
                 </ul>
 
-                <!-- Case studies list-->
+                <!-- Études de cas list-->
                 <div
                     class="grid max-w-xl gap-12 mx-auto mt-12 sm:mt-16 lg:mx-0 lg:mt-24 lg:max-w-none lg:grid-cols-2 lg:gap-10 xl:gap-24 lg:pb-32">
                     <!-- 1st case study -->
@@ -283,5 +281,4 @@
             </div>
         </div>
     </section>
-
 @endsection

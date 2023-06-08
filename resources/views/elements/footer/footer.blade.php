@@ -25,8 +25,7 @@
             </div>
             <div class="flex flex-col items-center lg:col-span-5 lg:items-start">
                 <p class="text-lg text-center text-slate-50 lg:max-w-sm lg:text-left">
-                    Iced pumpkin ristretto irish trifecta robusta trade froth
-                    affogato barista con barista cappuccino filter roast.
+                    N'hésitez pas à me contacter pour discuter de vos projets web ou pour en savoir plus sur mes compétences et mon expérience.
                 </p>
 
                 <!-- Call to action button for small screens -->
