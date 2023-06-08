@@ -65,7 +65,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]">
                         <a href="case-study.html"
                             class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="storage/images/case_studies/case-study-thumbnail-02.jpg" alt="JSTech"
+                            <img src="{{ Storage::('urlcase_studies/case-study-thumbnail-02.jpg') }}" alt="JSTech"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -95,7 +95,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32">
                         <a href="case-study.html"
                             class="relative order-2 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="storage/images/case_studies/case-study-thumbnail-01.jpg" alt="Horizons in Perspective"
+                            <img src="{{ Storage::url('case_studies/case-study-thumbnail-01.jpg') }}" alt="Horizons in Perspective"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -126,7 +126,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]">
                         <a href="case-study.html"
                             class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="storage/images/case_studies/case-study-thumbnail-03.jpg" alt="Banter"
+                            <img src="{{ Storage::url('case_studies/case-study-thumbnail-03.jpg') }}" alt="Banter"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -157,7 +157,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32">
                         <a href="case-study.html"
                             class="relative order-2 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="storage/images/case_studies/case-study-thumbnail-04.jpg" alt="Bright School"
+                            <img src="{{ Storage::url('case_studies/case-study-thumbnail-04.jpg') }}" alt="Bright School"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -188,7 +188,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]">
                         <a href="case-study.html"
                             class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="storage/images/case_studies/case-study-thumbnail-05.jpg" alt="Crator Studio"
+                            <img src="{{ Storage::url('case_studies/case-study-thumbnail-05.jpg') }}" alt="Crator Studio"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
@@ -219,7 +219,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 transform rounded-br-[64px] lg:translate-y-24 xl:translate-y-32">
                         <a href="case-study.html"
                             class="relative order-2 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="storage/images/case_studies/case-study-thumbnail-06.jpg" alt="NebulaTech Icon Set"
+                            <img src="{{ Storage::url('case_studies/case-study-thumbnail-06.jpg') }}" alt="NebulaTech Icon Set"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>

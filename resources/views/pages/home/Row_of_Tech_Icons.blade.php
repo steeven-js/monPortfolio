@@ -21,85 +21,85 @@
     <!-- Icon 1 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">
-        <img src="storage/images/logos/icons/javascript.png" alt="Javascript" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('/logos/icons/javascript.png') }}" alt="Javascript" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 2 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img src="storage/images/logos/icons/html5.png" alt="HTML" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/html5.png') }}" alt="HTML" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 3 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img src="storage/images/logos/icons/css.png" alt="CSS" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/css.png') }}" alt="CSS" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 4 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">
-        <img src="storage/images/logos/icons/javascript.png" alt="Javascript" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/javascript.png') }}" alt="Javascript" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 5 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-24">
-        <img src="storage/images/logos/icons/tailwindcss.png" alt="Tailwind CSS" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/tailwindcss.png') }}" alt="Tailwind CSS" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 6 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img src="storage/images/logos/icons/figma.png" alt="Figma" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/figma.png') }}" alt="Figma" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 7 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img src="storage/images/logos/icons/symfony.png" alt="Symfony" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/symfony.png') }}" alt="Symfony" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 8 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">
-        <img src="storage/images/logos/icons/laravel.png" alt="Laravel" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/laravel.png') }}" alt="Laravel" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 9 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img src="storage/images/logos/icons/reactjs.png" alt="Reactjs" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/reactjs.png') }}" alt="Reactjs" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 10 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img src="storage/images/logos/icons/vuejs.png" alt="Vuejs" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/vuejs.png') }}" alt="Vuejs" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 11 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-24">
-        <img src="storage/images/logos/icons/github.png" alt="Github" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/github.png') }}" alt="Github" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 12 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-16">
-        <img src="storage/images/logos/icons/firebase.png" alt="Firebase" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/firebase.png') }}" alt="Firebase" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 13 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-8">
-        <img src="storage/images/logos/icons/visual-studio-code.png" alt="Visual-studio-code" class="w-8 h-auto shrink-0 sm:w-10" />
+        <img src="{{ Storage::url('logos/icons/visual-studio-code.png') }}" alt="Visual-studio-code" class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 
     <!-- Icon 14 -->
     <div
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-slate-50/90 shadow-sm shadow-sky-100 ring-1 ring-slate-100 sm:h-[88px] sm:w-[88px] mt-0">
-        <img src="storage/images/logos/icons/shopify.png" alt="Shopify programming language"
+        <img src="{{ Storage::url('logos/icons/shopify.png') }}" alt="Shopify programming language"
             class="w-8 h-auto shrink-0 sm:w-10" />
     </div>
 </section>

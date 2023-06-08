@@ -40,7 +40,7 @@
                 <div class="w-full px-4 pt-4">
                     <a href="article.html"
                         class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                        <img src="{{ Storage::url('/images/articles/article-01.jpg') }}" alt=""
+                        <img src="{{ Storage::url('images/articles/article-01.jpg') }}" alt=""
                             class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                         <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                     </a>
@@ -104,7 +104,7 @@
                 <div class="w-full px-4 pt-4">
                     <a href="article.html"
                         class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                        <img src="{{ Storage::url('/images/articles/article-02.jpg') }}" alt=""
+                        <img src="{{ Storage::url('images/articles/article-02.jpg') }}" alt=""
                             class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                         <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                     </a>
@@ -172,7 +172,7 @@
                 <div class="w-full px-4 pt-4">
                     <a href="article.html"
                         class="relative block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                        <img src="{{ Storage::url('/images/articles/article-03.jpg') }}" alt=""
+                        <img src="{{ Storage::url('images/articles/article-03.jpg') }}" alt=""
                             class="object-cover w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                         <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                     </a>

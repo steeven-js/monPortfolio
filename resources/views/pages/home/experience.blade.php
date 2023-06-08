@@ -198,13 +198,13 @@
             <div class="lg:col-span-8 lg:pl-8 xl:pl-24">
                 <div class="relative w-full aspect-w-3 aspect-h-2">
                     <img class="object-cover object-center w-full h-full rounded-3xl"
-                        src="{{ Storage::url('/images/experience-image.jpg') }}" alt=""
+                        src="{{ Storage::url('images/experience-image.jpg') }}" alt=""
                         sizes="(min-width: 1280px) 705.34px, (min-width: 1024px) calc((100vw - 64px) * 0.6667 - 32px), (min-width: 616px) 36rem, calc(100vw - 40px)" />
                     <div>
                         <div
                             class="absolute w-32 h-32 -translate-x-1/2 -translate-y-1/2 rounded-full top-1/2 left-1/2 bg-white/50 backdrop-blur-sm lg:h-44 lg:w-44">
                             <!-- Spinning 'Download Resume' text -->
-                            <a href="{{ Storage::url('/images/moncv.pdf') }}" download>
+                            <a href="{{ Storage::url('images/moncv.pdf') }}" download>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="145" height="145"
                                     viewBox="0 0 145 145" fill="none"
                                     class="absolute w-24 h-24 inset-4 animate-spin-slow text-slate-900/90 lg:h-36 lg:w-36">

@@ -20,7 +20,7 @@
                         </h2>
 
                         <div class="mt-12 aspect-w-3 aspect-h-2 sm:mt-16">
-                            <img src="storage/images/contact.jpg" alt=""
+                            <img src="{{ Storage::url('contact.jpg') }}" alt=""
                                 class="object-cover w-full h-full rounded-3xl xl:translate-x-16" />
                         </div>
 

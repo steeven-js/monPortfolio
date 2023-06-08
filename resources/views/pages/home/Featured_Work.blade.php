@@ -18,7 +18,7 @@
             <div
                 class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
-                <img src="{{ Storage::url('/images/case-study-bg.svg') }}" alt=""
+                <img src="{{ Storage::url('images/case-study-bg.svg') }}" alt=""
                     class="absolute inset-x-0 w-full h-full rotate-90 top-6 lg:rotate-0" />
 
                 <!-- Content -->
@@ -64,12 +64,12 @@
                 <!-- Image -->
                 <a href="case-study.html"
                     class="relative order-1 w-full h-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-2xl ring-1 ring-slate-100/75 lg:order-2 lg:col-span-6 lg:rounded-r-none lg:rounded-l-none xl:col-span-7 xl:rounded-tl-2xl">
-                    <img src="{{ Storage::url('/images/case_studies/case-study-thumbnail-02.jpg') }}" alt="JSTech"
+                    <img src="{{ Storage::url('images/case_studies/case-study-thumbnail-02.jpg') }}" alt="JSTech"
                         class="absolute inset-x-0 bottom-0 object-cover object-top w-full h-full transition duration-300 group-hover:scale-105" />
                 </a>
             </div>
             <!-- 2nd Case Study -->
-            {{-- <div
+            <div
                 class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
                 <svg width="1280" height="492" viewBox="0 0 1280 492" fill="none"
@@ -126,7 +126,7 @@
                     </div>
 
                     <h3 class="mt-5 text-2xl font-medium font-display text-slate-900 sm:mt-6 sm:text-3xl">
-                        Wavvy
+                        JSWear
                     </h3>
 
                     <p class="mt-3 leading-8 text-md text-slate-700 sm:mt-4 sm:text-base sm:leading-8 dark:text-white">
@@ -135,9 +135,9 @@
                         engagement and growth.
                     </p>
 
-                    <a href="case-study.html"
+                    <a href="#"
                         class="flex items-center gap-2 text-sm font-medium duration-200 ease-in-out group mt-14 text-sky-600 hover:text-sky-700 sm:mt-16 sm:text-md">
-                        View Case Study
+                        Voir le résultat
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                             class="h-5 w-5 text-sky-500 duration-300 ease-in-out group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-sky-600">
                             <path fill-rule="evenodd"
@@ -150,16 +150,16 @@
                 <!-- Image -->
                 <a href="case-study.html"
                     class="relative order-1 w-full h-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-2xl ring-1 ring-slate-100/75 lg:order-2 lg:col-span-6 lg:rounded-r-none lg:rounded-l-none xl:col-span-7 xl:rounded-tl-2xl">
-                    <img src="{{ Storage::url('/images/case_studies/case-study-thumbnail-02.jpg') }}" alt="Wavvy"
+                    <img src="{{ Storage::url('images/case_studies/case-study-thumbnail-01.jpg') }}" alt="Wavvy"
                         class="absolute inset-x-0 bottom-0 object-cover object-top w-full h-full transition duration-300 group-hover:scale-105" />
                 </a>
-            </div> --}}
+            </div>
 
             <!-- 3rd Case Study -->
             {{-- <div
                 class="relative grid items-center gap-8 px-4 pt-5 overflow-hidden shadow-sm rounded-2xl bg-slate-50 pb-14 shadow-sky-100/50 ring-1 ring-slate-100 sm:gap-12 sm:px-8 sm:pt-8 lg:grid-cols-12 lg:px-0 lg:py-0 xl:gap-16 xl:pt-16 dark:bg-gray-600">
                 <!-- Light gradient backdrop -->
-                <img src="{{ Storage::url('/images/case-study-bg.svg') }}" alt=""
+                <img src="{{ Storage::url('images/case-study-bg.svg') }}" alt=""
                     class="absolute inset-x-0 w-full h-full rotate-90 top-6 lg:rotate-0" />
 
                 <!-- Content -->
@@ -211,7 +211,7 @@
                 <!-- Image -->
                 <a href="case-study.html"
                     class="relative order-1 w-full h-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-2xl ring-1 ring-slate-100/75 lg:order-2 lg:col-span-6 lg:rounded-r-none lg:rounded-l-none xl:col-span-7 xl:rounded-tl-2xl">
-                    <img src="{{ Storage::url('/images/case_studies/case-study-thumbnail-03.jpg') }}" alt="Wavvy"
+                    <img src="{{ Storage::url('images/case_studies/case-study-thumbnail-03.jpg') }}" alt="Wavvy"
                         class="absolute inset-x-0 bottom-0 object-cover object-top w-full h-full transition duration-300 group-hover:scale-105" />
                 </a>
             </div> --}}
@@ -293,7 +293,7 @@
                 <!-- Image -->
                 <a href="case-study.html"
                     class="relative order-1 w-full h-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-2xl ring-1 ring-slate-100/75 lg:order-2 lg:col-span-6 lg:rounded-r-none lg:rounded-l-none xl:col-span-7 xl:rounded-tl-2xl">
-                    <img src="{{ Storage::url('/images/case_studies/case-study-thumbnail-01.jpg') }}" alt="Horizons in Perspective"
+                    <img src="{{ Storage::url('images/case_studies/case-study-thumbnail-01.jpg') }}" alt="Horizons in Perspective"
                         class="absolute inset-x-0 bottom-0 object-cover object-top w-full h-full transition duration-300 group-hover:scale-105" />
                 </a>
             </div> --}}
