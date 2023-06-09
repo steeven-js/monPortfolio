@@ -1,4 +1,4 @@
-<section class="relative py-20 overflow-hidden lg:py-24 dark:bg-gray-800">
+<section class="relative z-10 grid items-center max-w-screen-xl gap-16 px-5 mx-auto sm:px-6 lg:px-8 lg:grid-cols-2 lg:gap-8 dark:bg-gray-800">
     <!-- Light blue gradient background -->
     <svg width="1728" height="894" viewBox="0 0 1728 894" fill="none" xmlns="http://www.w3.org/2000/svg"
         class="absolute inset-x-0 w-auto top-56 lg:inset-y-0">
@@ -24,7 +24,7 @@
 
     <!-- Hero content -->
     <div
-        class="relative z-10 grid items-center max-w-screen-xl gap-16 px-5 mx-auto sm:px-6 lg:px-8 lg:grid-cols-2 lg:gap-8">
+        class="relative z-10 grid items-center max-w-screen-xl gap-16 px-5 mx-auto sm:px-6 lg:px-8 lg:grid-cols-2 lg:gap-8 dark:bg-gray-800">
         <div class="flex flex-col items-center max-w-2xl mx-auto lg:items-start">
             <h1
                 class="text-5xl font-semibold text-center font-display text-slate-900 sm:text-6xl lg:text-left dark:text-white">

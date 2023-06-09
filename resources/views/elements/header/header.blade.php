@@ -111,6 +111,11 @@
                                         class="block text-base font-semibold duration-200 text-slate-700 hover:text-slate-900">
                                         Contact
                                     </a>
+                                    <a href="#">
+                                        <!-- Dark mode switcher -->
+                                        @include('components/darkModeMobile')
+                                        <!-- Dark mode switcher end -->
+                                    </a>
                                 </div>
                             </div>
                         </div>

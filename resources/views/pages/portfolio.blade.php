@@ -65,7 +65,7 @@
                         class="flex flex-col gap-12 rounded-3xl bg-slate-50 px-7 py-12 sm:gap-14 sm:p-16 lg:py-14 lg:px-10 xl:gap-16 xl:p-16 rounded-tl-[64px]">
                         <a href="case-study.html"
                             class="relative order-1 block w-full overflow-hidden group aspect-w-16 aspect-h-9 rounded-xl md:aspect-w-3 md:aspect-h-2">
-                            <img src="{{ Storage::('images/urlcase_studies/case-study-thumbnail-02.jpg') }}" alt="JSTech"
+                            <img src="{{ Storage::url('images/case_studies/case-study-thumbnail-02.jpg') }}" alt="JSTech"
                                 class="object-cover object-top w-full transition duration-300 rounded-xl bg-slate-100 group-hover:scale-105" />
                             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5"></div>
                         </a>
